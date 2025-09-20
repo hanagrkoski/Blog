@@ -1,0 +1,28 @@
+body {
+    font-family: sans-serif;
+}
+
+.circle {
+    width: 80px;
+    height: 250px;
+    padding: 10px;
+    border: 30px double purple;
+    background-color: orange;
+    border-radius: 50%;
+}
+
+h1 {
+    font-size: 70px;
+    background-color: orange;
+    padding: 10px;
+    border-radius: 20px;
+    color: purple;
+    position: absolute;
+    top: 60px;
+    left: 50px;
+}
+
+.circle:hover {
+    background-color: purple;
+    border: 30px double orange;
+}
